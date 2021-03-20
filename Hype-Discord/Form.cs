@@ -76,12 +76,12 @@ namespace Hype_Discord
         private void Active_MouseHover(object sender, EventArgs e)
         {
             Active.BackColor = SystemColors.ButtonHighlight;
+            Active.Cursor = Cursors.Hand;
         }
 
         private void Active_MouseLeave(object sender, EventArgs e)
         {
             Active.BackColor = SystemColors.GradientActiveCaption;
-            Active.Cursor = Cursors.Hand;
         }
 
     }
